@@ -1,0 +1,35 @@
+{
+    "height": 35,
+    "spacing": 15,
+    "modules-left": ["cpu","memory","temperature","network","pulseaudio","clock"],
+    "modules-right": ["tray","river/tags"],
+    "cpu": {
+        "format": "CPU {usage}%",
+        "interval": 1
+    },
+    "memory": {
+        "format": "MEM {}%",
+        "interval": 1
+    },
+    "temperature":{
+        "format": "TEM {temperatureK}K",
+        "interval": 1
+    },
+    "river/tags": {
+        "num-tags": 5
+    },
+    "pulseaudio": {
+        "format": "VOL {volume}%"
+    },
+    "tray": {
+        "spacing": 10
+    },
+    "clock": {
+        "timezone": "Asia/Shanghai",
+        "format": "TME {:%H:%M:%S}",
+        "interval": 1
+    },
+    "network": {
+        "format": "NET {ifname}"
+    }
+}

@@ -1,0 +1,111 @@
+* {
+    font-family: Consolas NF, Roboto, sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(12, 12, 12, 0.85);
+    color: #ffffff;
+}
+
+button {
+    box-shadow: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+button:hover {
+    background-color: #3b78ff;
+}
+
+#tags button {
+    color: #ffffff;
+}
+
+#tags button.hover {
+    color: #13a10e;
+}
+
+#tags button.focused {
+    background-color: #0037da;
+    color: #ffffff;
+}
+
+#clock,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+
+
+#clock {
+    color: #ffffff;
+}
+
+#cpu {
+    color: #ffffff;
+}
+
+#memory {
+    color: #ffffff;
+}
+
+#disk {
+    color: #ffffff;
+}
+
+#backlight {
+    color: #ffffff;
+}
+
+#network {
+    color: #13a10e;
+}
+
+#network.disconnected {
+    color: #c50f1f;
+}
+
+#pulseaudio {
+    color: #ffffff;
+}
+
+#pulseaudio.muted {
+    color: #c50f1f;
+}
+
+#temperature {
+    color: #13a10e;
+}
+
+#temperature.critical {
+    color: #c50f1f;
+}
+
+#language {
+    background: #00b093;
+    color: #740864;
+    padding: 0 5px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state {
+    color: #ffffff;
+    padding: 0 0px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state > label {
+    padding: 0 5px;
+}
+
+#keyboard-state > label.locked {
+    background: rgba(0, 0, 0, 0.2);
+}
+
